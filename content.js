@@ -9,3 +9,11 @@
 
 console.log('hi');
 
+$(window).load(function() {
+
+	init();
+})
+
+function init() {
+	if (page.indexOf('https://bitcoinwisdom.com/markets/btcchina/btccny')
+}
